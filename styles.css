@@ -4,6 +4,7 @@
     --primary-color: #4D61FC;
     --offwhite: #E5E7EB;
     --dark-grey: #6B7280;
+    --black: #111827;
 }
 
 body {
@@ -127,6 +128,10 @@ hr {
     padding: 1rem 0rem;
 }
 
+.section-text {
+    color: var(--black); 
+}
+
 /* footer */
 
 .footer {
@@ -149,4 +154,9 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.h1-heading {
+    color: var(--black);
+    text-align: left;
 }
